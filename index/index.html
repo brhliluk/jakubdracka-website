@@ -1,3 +1,8 @@
+<head>
+  <meta charset="UTF-8">
+  <title>JAKUB DRAČKA</title>
+</head>
+
 <div class="div">
   <div class="div-2">
     <div class="builder-columns div-3">
@@ -30,6 +35,7 @@
     </div>
   </div>
 </div>
+
 <style>
   @font-face{
     font-family:"helvetica";
@@ -38,11 +44,12 @@
     url("https://candyfonts.com/wp-data/2018/10/26/11538/HELR45W.ttf") format("truetype");
   }
   .div {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
     background-color: rgba(255, 255, 255, 1);
   }
   .div-2 {
