@@ -12,6 +12,7 @@
             <img
               loading="lazy"
               src="src/hair.jpg"
+              onmouseover="this.src='src/bald.jpg'"
               class="image"
             />
           </picture>
@@ -46,6 +47,8 @@
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
     background-color: rgba(255, 255, 255, 1);
+  }
+  body {
     pointer-events: none;
   }
   body:hover, .div:hover {
